@@ -11,5 +11,5 @@
 * [服务发现——基于eurek](./eureka_1.md)
 * [Hystrix——Netflix熔断](./hystrix.md)
 * [Zuul——应用网关](./zuul.md)
-* [Java Fork/Join框架](./java_stream.md)
+* [Java Fork/Join框架](./java_forkjoin.md)
 * [Java 8 Stream API](./java_stream.md)
