@@ -1,0 +1,5 @@
+before_deploy:
+  - gitbook install --gitbook=3.2.2
+  - gitbook build . book --gitbook=3.2.2
+options:
+  dist: 'book'
