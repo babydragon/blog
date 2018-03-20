@@ -22,6 +22,7 @@
 * [WADL REST API的描述语言](./wadl.md)
 * [java 8的时间日期相关对象](./java_date.md)
 * [批量获取应用依赖class文件版本](./java_class_version.md)
+* [JVMTI那些事——加载](./jvmti_load.md)
 
 ## 问题排查
 * [logback导致CPU利用率彪高排查](./logback_cpu.md)
