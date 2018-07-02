@@ -45,7 +45,8 @@ javaagent需要以jar包的形式加载，和普通的jar没什么区别，唯�
 
 ### 直接使用jvmti接口
 
-待补充
+通过jvmti接口编写基于c/c++语言的agent可以参考：[JVMTI那些事——c++编写的agent](./java_c_agent.md)。
+该文没有尝试调用jvmti中的字节码转换函数。
 
 ## JVM开始工作
 通过jvmti接口提交了类转换请求之后，JVM就需要开始工作了。hotspot对jvmti的实现在`hotspot/src/share/vm/prims/jvmtiEnv.cpp`文件中，对应转换类的函数实现是`jvmtiError
