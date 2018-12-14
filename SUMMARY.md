@@ -25,6 +25,7 @@
 * [JVMTI那些事——加载](./jvmti_load.md)
 * [插桩？其实JVM做了很多](./instrument.md)
 * [JVMTI那些事——c++编写的agent](./java_c_agent.md)
+* [JVMTI那些事——和Java相互调用](./jvmti-jni.md)
 
 ## 问题排查
 * [logback导致CPU利用率彪高排查](./logback_cpu.md)
