@@ -26,6 +26,7 @@
 * [插桩？其实JVM做了很多](./instrument.md)
 * [JVMTI那些事——c++编写的agent](./java_c_agent.md)
 * [JVMTI那些事——和Java相互调用](./jvmti-jni.md)
+* [Java Debug初探](./java_debug.md)
 
 ## 问题排查
 * [logback导致CPU利用率彪高排查](./logback_cpu.md)
