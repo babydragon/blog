@@ -31,3 +31,4 @@
 ## 问题排查
 * [logback导致CPU利用率彪高排查](./logback_cpu.md)
 * [深入参合logback](./deep_logback.md)
+* [Gentoo蓝牙鼠标问题](./gentoo_bluetooth.md)
