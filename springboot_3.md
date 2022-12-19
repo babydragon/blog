@@ -13,3 +13,7 @@ springboot 3.0.0的csrf token生成功能默认使用了`XorServerCsrfTokenReque
 hibernate 6.0去除了@Type注解中的type属性。
 
 之前我们用来强制指定UUID类型映射成VARCHAR,新版本可以使用@JdbcTypeCode(Types.VARCHAR)注解来实现相同功能。
+
+## spring data redis配置类型修改
+老版本spring data redis的配置，prefix是`spring.redis`;升级之后，prefix变成了`spring.data.redis`。
+虽然idea会提示对应的配置已经改变，同时可以通过快捷键直接修复，但是这个配置错误不会影响应用启动。如果忘记修改之后，在实际调用redis的时候才会报出localhost 6379端口连接失败。
